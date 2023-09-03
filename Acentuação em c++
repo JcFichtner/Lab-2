@@ -1,0 +1,20 @@
+#include <iostream>
+#include <locale>
+using namespace std;
+
+int main() {
+    
+    system("chcp 1252 > nul");
+
+    // Exibindo uma frase que contém acentos
+    cout << "Acentuação é possível?" << endl;
+
+    // Lê uma palavra que contém acentos
+    string palavra;
+    cin >> palavra;
+
+    // Exibe o que foi lido
+    cout << palavra << endl;
+
+    return 0;
+}
