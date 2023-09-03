@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+/*Construa um programa que contenha somente um cout com a seguinte saída.
+
+C
+    +
+        +
+*/
+
+int main() {
+    
+    cout << "C\n" << "     +\n" << "           +";
+}
