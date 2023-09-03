@@ -13,5 +13,10 @@ do C++
 
 int main()
 {
-	cout << "Bem Vindo\n" << "Ao Mundo\n" << "Do C++";
+	cout << "Bem Vindo" << endl
+	     << "Ao Mundo" << endl
+	     << "Do C++" << endl;
+
+        cout << "Bem Vindo\n" << "Ao Mundo\n" << "Do C++";
+
 }
