@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+ 
+/*Crie um programa que exiba as informações abaixo usando apenas um cout. Faça
+uma versão que utilize apenas endl para saltar linhas. Faça outra versão que
+utilize apenas \n para saltar linha
+
+Bem-vindo
+ao mundo
+do C++
+*/
+
+int main()
+{
+	cout << "Bem Vindo\n" << "Ao Mundo\n" << "Do C++";
+}
